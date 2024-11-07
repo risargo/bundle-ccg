@@ -1,0 +1,14 @@
+These data files are instances randomly  generated  following  the guidelines  of:
+V. Gabrel,  M. Lacroix,  C. Murat,  N. Remli,  Robust location transportation problems under uncertain demands, Discrete Applied Mathematics 164 (2014) 100-111.
+Nevertheless, the fixed costs and capacities are multiplied for 10 and 6, respectively, in the source code to make the instances harder. 
+
+The value of each parameter is given in the files n-m-type-gamma.txt and follows the sequence:
+ n                      // // number of facilities
+ m                      // // number of customers
+ Gamma                  // // budget of uncertainty
+ d[j]   d_[j]           // // d demand nominal,  d_ desviation 
+ f[i]   a[i]    k[i]    // // fixed costs, capacity costs, capacity of the facility
+ c[i][j]                // // transportation costs;
+
+
+ 
